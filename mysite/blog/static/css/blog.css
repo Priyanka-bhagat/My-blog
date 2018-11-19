@@ -1,0 +1,40 @@
+h1, h2 {
+    color: #085dad;
+    font-family: 'lobster';
+}
+
+.header{
+   
+    background-image: 
+    linear-gradient(-15deg, rgba(0,0,0,.6), rgba(0,0,0,.6) ), url("bg.jpg");  
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70%;
+    color: white;
+    font-size: 160%;
+   /* font-family: "Lobster", serif;*/
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+.header.scroll{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: black;
+    color: white;
+}
+.page-header {
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+.content{
+    padding: 20px 20px 20px 40px;
+}
+.date{
+    font-size: 12px;
+}
+p{
+    font-size: 18px;
+}
