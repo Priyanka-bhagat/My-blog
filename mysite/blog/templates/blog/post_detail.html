@@ -2,6 +2,7 @@
 
 <html>
     <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         
@@ -9,7 +10,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/post_detail.css' %}">
         <title>
-
+                        {{ post.title }}
         </title>
     </head>
     <body>
@@ -30,6 +31,9 @@
                    
                             </li>
                             <li class="nav-item">
+                                        <a class="ic" href="https://www.quora.com/profile/Priyanka-Bhagat-37"><i class="fa fa-quora" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="nav-item">
                                     <a class="ic" href="https://www.instagram.com/_priyanka.bhagat/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             </li>
                             <li class="nav-item">
@@ -42,10 +46,11 @@
                     </nav>
                 
                 </div>
+                <div class="content">
                             <div class="row">
                                     {% if post.published_date %}
                                     <div class="col-lg-12 col-md-12">
-                                        <div class="content">
+                                       
                                                 <h2>{{ post.title }}</h2>
                                                 <div class="date">
                                                    {{ post.published_date }}
