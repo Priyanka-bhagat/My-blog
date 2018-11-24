@@ -1,0 +1,50 @@
+
+.header{
+   
+    background-image: 
+    linear-gradient(-15deg, rgba(0,0,0,.6), rgba(0,0,0,.6) ), url("bg.jpg");  
+    background-attachment: fixed;
+    background-size: cover;
+    height: 45vh;
+    color: white;
+    font-size: 160%;
+    
+    
+}
+
+a{
+        color: #428bca;
+    }
+    nav.scroll {
+      background: black;
+      color: white;
+    }
+.content{
+    
+    padding: 20px 20px 20px 40px;
+    font-family: 'lobster';
+      
+   
+}
+h2{
+        color: #428bca;
+        text-decoration: none;
+ }
+ .date{
+        font-size: 12px;
+ }
+  p{
+      
+        font-size: 18px;
+ }
+  .ic{
+    
+        border-radius: 50%;
+        font-size: 20px;
+        padding: 20px 20px;
+        color: #fff;
+    }
+ .ic:hover{
+        color:black;
+      
+}
