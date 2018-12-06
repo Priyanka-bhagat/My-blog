@@ -10,7 +10,7 @@
                     Published: {{ post.published_date }}
                     <br>
                     <br>
-                    <p>{{ post.text|linebreaksbr }}</p>
+                    <p>{{ post.subtext|linebreaksbr }}</p>....<a href="{% url 'post_detail' pk=post.pk %}">(Continue Reading)</a>
                </div>
                {% endfor %}
 <br><br><br><br>
