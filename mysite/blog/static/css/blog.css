@@ -43,6 +43,7 @@ p{
     font-size: 20px;
     padding: 20px 20px;
     color: white;
+    text-align: center;
 }
 .ic:hover{
     text-shadow: white;
