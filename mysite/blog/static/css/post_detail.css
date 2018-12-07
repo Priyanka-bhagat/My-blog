@@ -8,8 +8,6 @@
     height: 45vh;
     color: white;
     font-size: 160%;
-    
-    
 }
 
 a{
@@ -27,15 +25,15 @@ a{
     }
 h4{
         color: #428bca;
-    
         font-weight: bold;
  }
  .date{
         font-size: 14px;
+        font-family: "sans serif";
  }
   p{
-    font-family: 'Bitter';
-    font-size: 18px;
+    font-family: '';
+    font-size: 20px;
  }
   .ic{
     
