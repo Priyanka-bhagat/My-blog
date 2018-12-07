@@ -17,7 +17,8 @@ nav{
  }
  a{
      color: black;
-     font-family: 'lobster';
+     font-family: 'Playfair Display';
+     font-weight: bold;
  }
  h4{
      font-family: 'Courier New', Courier, monospace;
@@ -28,7 +29,7 @@ nav{
 
 .content{
     padding: 20px 20px 20px 20px;
-    font-family: 'lobster';
+    font-family: 'Playfair Display';
     
 }
 
@@ -36,7 +37,7 @@ nav{
     font-size: 16px;
 }
 p{
-  
+    font-family: 'Playfair Display';
     font-size: 23px;
 }
 .ic{

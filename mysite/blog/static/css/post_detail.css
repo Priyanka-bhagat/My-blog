@@ -14,7 +14,8 @@
 
 a{
         color: #428bca;
-    }
+        
+}
     nav {
       background: black;
       color: white;
@@ -22,13 +23,12 @@ a{
 .content{
     
     padding: 20px 20px 20px 20px;
-    font-family: 'lobster';
-      
-   
-}
+    font-family: 'Playfair Display';
+    }
 h2{
         color: #428bca;
-        text-decoration: none;
+    
+        font-weight: bold;
  }
  .date{
         font-size: 16px;
