@@ -3,7 +3,7 @@
     background-image: 
     url("bg2.jpg");  
     background-attachment: fixed;
-    background-size: cover;
+    background-size: content;
     
     background-repeat: no-repeat;
     height: 70%;
